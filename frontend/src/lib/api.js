@@ -14,8 +14,8 @@ export const api = {
     const { data } = await mainApi.get(path)
     return data
   },
-  async post(body) {
-    const { data } = await mainApi.post(body)
+  async post(path, body) {
+    const { data } = await mainApi.post(path, body)
     return data
   }
 }

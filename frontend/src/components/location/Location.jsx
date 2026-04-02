@@ -3,7 +3,7 @@ import useDutyStore from '../../store/useDutyStore'
 function Location() {
   const location = useDutyStore((state) => state.location)
 
-  console.log(location)
+  // console.log(location)
   return (
     <div className='w-80  border-l border-gray-600 shadow-lg'>
 

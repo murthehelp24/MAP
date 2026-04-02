@@ -51,6 +51,27 @@
       "lat": 13.762937265148677,
       "lng": 100.50640046596529,
       "maxCapacity": 5
+    },
+    {
+      "name": "TEST",
+      "lat": 17.4219540185033,
+      "lng": 102.78327279811765,
+      "maxCapacity": 5,
+      "id": "9mb1W70tXTw"
+    },
+    {
+      "name": "ERER",
+      "lat": 17.417859309663896,
+      "lng": 102.77571845534447,
+      "maxCapacity": 5,
+      "id": "AGPeFOApgp8"
+    },
+    {
+      "name": "TEST2",
+      "lat": 17.424247015344633,
+      "lng": 102.78344448772613,
+      "maxCapacity": 5,
+      "id": "5WFhORnGG5A"
     }
   ],
   "locationPersonnel": [
@@ -59,5 +80,6 @@
       "locationId": "952f",
       "personId": "2"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }

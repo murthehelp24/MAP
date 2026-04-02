@@ -19,6 +19,20 @@ const DutyStore = (set, get) => ({
     } catch (error) {
       console.log(error)
     }
+  },
+  addLocation: async (lat, lng, name) => {
+    try {
+      await api.post('/locations',
+        {
+          name: name,
+          lat: Number(lat),
+          lng: Number(lng),
+          maxCapacity: 5
+        })
+        get().fetchAll()
+    } catch (error) {
+      console.log(error)
+    }
   }
 })
 
